@@ -1,0 +1,68 @@
+<div class="p-2" >
+    <div>
+        <h3 class="display-6">Find places to stay on Airbnb</h3>
+        <p class=" pb-1" style="font-size: 18px; color: rgb(102, 102, 101); line-height: 20px;">
+            Discover entire homes and private rooms  perfect for any trip
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-floating pb-2">
+                <input type="email" class="form-control" id="floatingInputGrid" 
+                placeholder="Nearby"
+                    value="Nearby">
+                <label for="floatingInputGrid" style="color: black;"> LOCATION</label>
+            </div>
+            <div class="row g-0 pb-2">
+                <div class="col-md" >
+                    <div class="form-floating" >
+                        <input type="text" class="form-select" id="datetimepicker1"
+                            aria-label="Floating label select example" placeholder="Add Date"  onfocus="(this.type='date')"
+                            onblur="(this.type='text')" [min]="minDate">
+
+                        <label for="floatingSelectGrid"  style="color: black;">
+                            CHECK IN</label>
+                          
+
+                    </div>
+                  
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="text" class="form-select" id="floatingSelectGrid"
+                            aria-label="Floating label select example" placeholder="Add Date" onfocus="(this.type='date')"
+                            onblur="(this.type='text')" >
+
+                        <label for="floatingSelectGrid" style="color: black;">CHECK OUT</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="number" class="form-select" id="floatingSelectGrid"
+                            aria-label="Floating label select example" placeholder="" value="2">
+
+                        <label for="floatingSelectGrid" style="color: black;">ADULTS</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="number" class="form-select" id="floatingSelectGrid"
+                            aria-label="Floating label select example" value="0">
+
+                        <label for="floatingSelectGrid" style="color: black;">CHILDREN</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-12">
+                    <input type="button"
+style=" border-radius:10px;width:480px;height:50px;color:rgb(255, 255, 255);border: 0; background-image: linear-gradient(to right,rgb(255, 0, 55), rgb(189, 8, 78))"
+                        value="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
